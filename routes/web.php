@@ -8,7 +8,7 @@ use App\Http\Controllers\PollController;
 use App\Http\Controllers\PositionController;
 use App\Http\Controllers\User\VoterController;
 
-// ADMIN ROUTES //
+// ADMIN ROUTES Via Web.php //
 Route::get('admin/register',[AdminAuthController::class,'create'])->name('register_admin');
 Route::post('admin/register',[AdminAuthController::class,'register'])->name('register_admin');
 
